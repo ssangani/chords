@@ -7,7 +7,9 @@
     "tsc": "tsc",
     "app": "ts-node-dev --respawn --pretty --transpile-only src/index.ts",
     "test": "jest",
-    "prepare": "husky"
+    "prepare": "husky",
+    "lint": "eslint src --fix",
+    "prettify": "prettier src --write"
   },
   "author": "",
   "license": "MIT",
