@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from "express";
-import logger from "./logger";
+import Logger from "./logger";
 
 export const errorHandler = (
   err: Error,
@@ -8,6 +8,6 @@ export const errorHandler = (
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   next: NextFunction,
 ) => {
-  logger.error(err);
+  Logger.error(err);
   res.status(500).send("Ruh Roh!");
 };
