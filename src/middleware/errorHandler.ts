@@ -6,7 +6,7 @@ export const errorHandler = (
   _req: Request,
   res: Response,
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  next: NextFunction,
+  _next: NextFunction,
 ) => {
   Logger.error(err);
   res.status(500).send("Ruh Roh!");

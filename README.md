@@ -1,4 +1,4 @@
-# api-template
+# template-api-nodejs
 
 Template repo for an Express.js API
 
@@ -10,19 +10,24 @@ Template repo for an Express.js API
 - Run `cp .env.sample .env`
 - (Optional) Substitute any secrets
 
-## Running Tests
+## Develop
 
-`npm run test`
-
-## Running Application
+### Run locally
 
 `npm run app`
+
+### Run tests
+
+`npm run test`
 
 ```
 curl --location --request GET 'http://localhost:3030/health/live'
 ```
 
-### Code formatting
+### Linting
 
-`npm run lint` - to lint code
+`npm run lint`
+
+### Formatting
+
 `npm run prettify` - to format code

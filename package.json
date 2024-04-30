@@ -1,7 +1,7 @@
 {
-  "name": "api-template",
+  "name": "template-api-nodejs",
   "version": "1.0.0",
-  "description": "Template repo for an Express.js API",
+  "description": "Template repo for a Node.js API",
   "main": "index.js",
   "scripts": {
     "tsc": "tsc",
