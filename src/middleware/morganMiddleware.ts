@@ -1,9 +1,9 @@
 import morgan, { StreamOptions } from "morgan";
 import { appConfig } from "./appConfig";
-import Logger from "./logger";
+import logger from "./logger";
 
 const stream: StreamOptions = {
-  write: (message: string) => Logger.http(message),
+  write: (message: string) => logger.http(message),
 };
 
 export const morganMiddleware = morgan(appConfig.morgan.format, { stream });

@@ -6,7 +6,7 @@ import helmet from "helmet";
 import { HealthRoot, HealthRouter } from "./health/controller";
 import { morganMiddleware } from "./middleware/morganMiddleware";
 import { errorHandler } from "./middleware/errorHandler";
-import Logger from "./middleware/logger";
+import logger from "./middleware/logger";
 import { exit } from "process";
 
 const app = express()
@@ -22,6 +22,6 @@ app.listen(3030, () => {
 });
 
 process.on("uncaughtException", (err) => {
-  Logger.error("Uncaught exception", err);
+  logger.error("Uncaught exception", err);
   exit(1);
 });
