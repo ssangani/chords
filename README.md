@@ -1,6 +1,6 @@
 # template-api-nodejs
 
-Template repo for an Express.js API
+Template for a Node.js + Express.js API
 
 ## Setup
 
@@ -16,13 +16,13 @@ Template repo for an Express.js API
 
 `npm run app`
 
-### Run tests
-
-`npm run test`
-
 ```
 curl --location --request GET 'http://localhost:3030/health/live'
 ```
+
+### Run tests
+
+`npm run test`
 
 ### Linting
 
@@ -30,4 +30,4 @@ curl --location --request GET 'http://localhost:3030/health/live'
 
 ### Formatting
 
-`npm run prettify` - to format code
+`npm run prettify`
