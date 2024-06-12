@@ -2,7 +2,7 @@
 
 Template API repo
 
-Stack -
+## Stack
 
 - Built on [Node.js](https://nodejs.org/docs/latest/api/)
 - Using [Express](https://expressjs.com/) framework
