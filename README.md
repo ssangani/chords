@@ -1,6 +1,15 @@
-# template-api-nodejs
+# chords
 
-Template for a Node.js + Express.js API
+Template API repo
+
+Stack -
+
+- Built on [Node.js](https://nodejs.org/docs/latest/api/)
+- Using [Express](https://expressjs.com/) framework
+- Can code using [Typescript](https://typescriptlang.org/)
+- Linting with [ESLint](https://eslint.org/)
+- Formatting with [Prettier](https://prettier.io/). Recommend installing prettier plugin such as [VSCode Prettier Plugin]
+- Testing with [Jest](https://jestjs.io/docs/getting-started)
 
 ## Setup
 
@@ -30,4 +39,4 @@ curl --location --request GET 'http://localhost:3030/health/live'
 
 ### Formatting
 
-`npm run prettify`
+`npm run format`
