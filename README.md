@@ -8,8 +8,9 @@ Template API repo
 - Using [Express](https://expressjs.com/) framework
 - Can code using [Typescript](https://typescriptlang.org/)
 - Linting with [ESLint](https://eslint.org/)
-- Formatting with [Prettier](https://prettier.io/). Recommend installing prettier plugin such as [VSCode Prettier Plugin]
+- Formatting with [Prettier](https://prettier.io/). Recommend installing prettier plugin such as [VSCode Prettier Plugin](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode). Using [husky](https://github.com/typicode/husky) extensions to format code on commits
 - Testing with [Jest](https://jestjs.io/docs/getting-started)
+- CI/CD using [Github Actions](https://docs.github.com/en/actions)
 
 ## Setup
 
