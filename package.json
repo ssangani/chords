@@ -1,15 +1,15 @@
 {
-  "name": "template-api-nodejs",
+  "name": "chords",
   "version": "1.0.0",
-  "description": "Template repo for a Node.js API",
+  "description": "Template API repo",
   "main": "index.js",
   "scripts": {
     "tsc": "tsc",
     "app": "ts-node-dev --respawn --pretty --transpile-only src/index.ts",
-    "test": "jest --passWithNoTests",
+    "test": "jest",
     "prepare": "husky",
     "lint": "eslint src --fix",
-    "prettify": "prettier src --write"
+    "format": "prettier src --write"
   },
   "author": "",
   "license": "MIT",
