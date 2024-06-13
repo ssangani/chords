@@ -24,20 +24,44 @@ Template API repo
 
 ### Run locally
 
-`npm run app`
-
+```sh
+npm run dev
 ```
+
+```sh
 curl --location --request GET 'http://localhost:3030/health/live'
 ```
 
 ### Run tests
 
-`npm run test`
+```sh
+npm run test
+```
 
 ### Linting
 
-`npm run lint`
+```sh
+npm run lint
+```
 
 ### Formatting
 
-`npm run format`
+```sh
+npm run format
+```
+
+## Deployment
+
+First, build your app for production:
+
+```sh
+npm run build
+```
+
+Then run the app in production mode:
+
+```sh
+npm start
+```
+
+Now you'll need to pick a host to deploy it to.

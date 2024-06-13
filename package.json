@@ -2,13 +2,15 @@
   "name": "chords",
   "version": "1.0.0",
   "description": "Template API repo",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
-    "tsc": "tsc",
-    "app": "ts-node-dev --respawn --pretty --transpile-only src/index.ts",
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn --pretty --transpile-only src/index.ts",
     "test": "jest",
     "prepare": "husky",
     "lint": "eslint src --fix",
+    "prestart": "npm run build",
+    "start": "node .",
     "format": "prettier src --write"
   },
   "author": "",
@@ -39,6 +41,9 @@
     "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
