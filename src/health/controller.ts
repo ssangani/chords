@@ -14,7 +14,7 @@ const live = async (
   }
 };
 
-const readyRoute = "ready";
+const readyRoute = "/ready";
 const ready = async (
   _request: Request,
   response: Response,
