@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.0",
-    "@eslint/js": "^9.21.0",
+    "@eslint/js": "^9.34.0",
     "@jest/globals": "^30.0.5",
     "@types/cors": "^2.8.19",
     "@types/express": "^4.17.21",
