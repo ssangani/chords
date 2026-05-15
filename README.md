@@ -41,13 +41,15 @@ npm run test
 ### Linting
 
 ```sh
-npm run lint
+npm run lint        # check only (CI)
+npm run lint:fix    # auto-fix locally
 ```
 
 ### Formatting
 
 ```sh
-npm run format
+npm run format        # write fixes locally
+npm run format:check  # check only (CI)
 ```
 
 ## Deployment
