@@ -9,10 +9,12 @@
     "dev": "ts-node-dev --respawn --pretty --transpile-only src/index.ts",
     "test": "jest",
     "prepare": "husky",
-    "lint": "eslint src --fix",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
     "prestart": "npm run build",
     "start": "node .",
-    "format": "prettier src --write"
+    "format": "prettier src --write",
+    "format:check": "prettier src --check"
   },
   "author": "",
   "license": "MIT",
