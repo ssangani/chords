@@ -5,6 +5,7 @@
   "main": "build/index.js",
   "scripts": {
     "build": "tsc",
+    "typecheck": "tsc --noEmit",
     "dev": "ts-node-dev --respawn --pretty --transpile-only src/index.ts",
     "test": "jest",
     "prepare": "husky",
